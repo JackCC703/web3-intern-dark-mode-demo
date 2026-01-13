@@ -23,3 +23,12 @@
 1. **安装依赖**：
    ```bash
    npm install
+   npm install
+# 接着
+    npm run dev
+# 或者
+    yarn dev
+# 或者
+    pnpm dev
+# 或者
+    bun dev
