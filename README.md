@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Web3 实习计划 - 夜间模式演示 (Demo)
 
-## Getting Started
+这是为“Web3 实习计划”网站开发的夜间模式功能演示项目。本项目基于原站点的 **Next.js + Mantine UI** 技术栈进行开发，确保了方案的可集成性。
 
-First, run the development server:
+## 🔗 在线预览与源码
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **在线演示地址**: [https://web3-intern-dark-mode-demo.vercel.app](https://web3-intern-dark-mode-demo.vercel.app)
+- **GitHub 源码**: [https://github.com/JackCC703/web3-intern-dark-mode-demo](https://github.com/JackCC703/web3-intern-dark-mode-demo)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 核心技术亮点 (Project Highlights)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+为了解决学员在深夜学习时网页刺眼的问题，本项目实现了以下核心功能：
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **技术栈高度匹配**：完全采用原网站的 **Next.js (App Router) + Mantine UI** 架构，可无缝集成至主站。
+* **原生级夜间模式**：调用 Mantine 官方的 `useMantineColorScheme` 钩子，实现了稳定、流畅的轻/深色主题切换。
+* **状态持久化**：集成 LocalStorage 存储功能，系统可自动记忆用户的色彩偏好，提升用户体验。
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 快速上手 (Getting Started)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+如果你想在本地运行本项目，请按照以下步骤操作：
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **安装依赖**：
+   ```bash
+   npm install
